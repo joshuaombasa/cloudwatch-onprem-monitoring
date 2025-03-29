@@ -2,14 +2,14 @@
   "metrics": {
     "namespace": "Custom/OnPremApp",
     "metrics_collected": {
-      "mem": {
-        "measurement": ["mem_used_percent"],
-        "metrics_collection_interval": 60
+      "memory": {
+        "measurements": ["mem_used_percent"],
+        "collection_interval": 60
       },
       "disk": {
-        "measurement": ["disk_used_percent"],
+        "measurements": ["disk_used_percent"],
         "resources": ["*"],
-        "metrics_collection_interval": 60
+        "collection_interval": 60
       }
     }
   }
